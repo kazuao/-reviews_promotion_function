@@ -15,6 +15,11 @@
 
 @implementation ViewController
 
+/*
+ ・対応OSは10.3以上
+ ・今後はレビュー機能は、このクラスを使わないとリジェクトされる可能性がある。
+*/
+
 - (IBAction)storeReviewBtn:(id)sender {
     [SKStoreReviewController requestReview];
 }
